@@ -1,13 +1,12 @@
-
-
 body {
     font-size: 16px;
     color: #2b283a;
-    font-family: 'PT Serif', serif;
+    font-family: 'Cormorant', serif;
     margin: 0;
 }
 
 /* typography */
+
 
 h1,
 h3 {
@@ -15,19 +14,20 @@ h3 {
 }
 
 h1 {
-    color:black;
-    font-size: 45px;
+    color: black;
+    font-size: 60px;
 
 }
 
 h2 {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p {
     line-height: 23px;
 }
+
 /* layout */
 h1,
 h2,
@@ -50,7 +50,7 @@ footer {
 
 .section-two {
     background-color: white;
-    color:black;
+    color: black;
 }
 
 
@@ -58,36 +58,36 @@ footer {
     font-family: 'PT Serif', serif;
     text-align: center;
     color: black;
-;
+    ;
 }
 
 /* Images */
 
 .photos {
-    display:flex;
-    padding:2px;
-    transition:.3s;
-    justify-content:center;
+    display: flex;
+    padding: 2px;
+    transition: .3s;
+    justify-content: center;
 
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    width:30%;
+    width: 30%;
     padding: 2px;
     border-radius: 8px;
-    
+
 }
 
 .photos img {
     display: block;
     width: 100%;
     padding: 2px;
-    border-radius:8px;
+    border-radius: 8px;
 
-&:hover {
-    transform: scale(1.05)
-}
+    &:hover {
+        transform: scale(1.05)
+    }
 
 }
